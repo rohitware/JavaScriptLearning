@@ -13,8 +13,6 @@ function showDetails(myName) {
 }
 showDetails("Mohit Sharma");
 
-
-
 function swapValues(value1, value2) {
     console.log("Before Swap", value1, value2);
     var temp = value1;
@@ -42,7 +40,6 @@ function rajuBhaiya(paisa) {
 }
 var bagOfVegetables = rajuBhaiya(100);
 console.log(bagOfVegetables);
-
 
 function add(val1, val2) {
     console.log(val1 + val2);
