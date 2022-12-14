@@ -10,6 +10,8 @@ squareOfWordLength("Developer Smart");
 
 console.log(`================================================`);
 
+
+var strDetails = function(){
 let str = `I am Angular Developer`;
 let strlen = str.length;
 console.log(`String length is: ${strlen}`);
@@ -23,4 +25,5 @@ console.log(`String Length Multiply by string words is = ${strlen * wordInStr.le
 
 console.log(`================================================`);
 
-
+};
+strDetails();
