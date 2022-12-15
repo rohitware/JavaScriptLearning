@@ -9,20 +9,27 @@ console.log(`========================================`);
 
 var isEvenOrOddNum = function (arg) {
     var newResult = arg % 2 == 0 ? `The number ${arg} is even Number.` : `The number ${arg} is odd Number.`;
-    console.log(newResult);
+    return newResult;
 }
-isEvenOrOddNum(29);
-isEvenOrOddNum(44);
-isEvenOrOddNum(0);
-isEvenOrOddNum(101);
+let num1 = isEvenOrOddNum(29);
+console.log(num1);
+let num2 = isEvenOrOddNum(44);
+console.log(num2);
+let num3 = isEvenOrOddNum(0);
+console.log(num3);
+let num4 = isEvenOrOddNum(101);
+console.log(num4);
 console.log(`========================================`);
 
 
 var checkEvenOddLength = function (value) {
     var newValue = value.length;
     var resultEvenOdd = newValue % 2 == 0 ? "EVEN" : "ODD"
-    console.log(`Length of the word "${value}" is: ${resultEvenOdd}`);
+    return `Length of the word "${value}" is: ${resultEvenOdd}`;
 }
-checkEvenOddLength("JavaScript");
-checkEvenOddLength("Developer");
-checkEvenOddLength("Google");
+var word1 = checkEvenOddLength("JavaScript");
+console.log(word1);
+var word2 = checkEvenOddLength("Developer");
+console.log(word2);
+var word3 = checkEvenOddLength("Google");
+console.log(word3);
