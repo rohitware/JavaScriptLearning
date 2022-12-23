@@ -54,8 +54,14 @@ function fact(num) {
     }
     
 }
-let res = fact(5);
+let res = fact(0);
 console.log(`Factorial number of given number is ${res}`);
+
+let res4 = fact(1);
+console.log(`Factorial number of given number is ${res4}`);
+
+let res5 = fact(2);
+console.log(`Factorial number of given number is ${res5}`);
 
 let res1 = fact(7);
 console.log(`Factorial number of given number is ${res1}`);
@@ -77,8 +83,8 @@ function Factorial(n) {
         ans = ans * i;
     return ans;
 }
-
-let fact1 = Factorial(5);
+   
+let fact1 = Factorial(0);
 console.log(`Factorial number of given number is ${fact1}`);
 
 let fact2 = Factorial(7);
@@ -89,3 +95,6 @@ console.log(`Factorial number of given number is ${fact3}`);
 
 let fact4 = Factorial(12);
 console.log(`Factorial number of given number is ${fact4}`);
+
+let fact5 = Factorial(1);
+console.log(`Factorial number of given number is ${fact5}`);
