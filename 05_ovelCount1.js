@@ -1,5 +1,5 @@
 
-string = "I am very goog IT Developer";
+var string = "I am very goog IT Developer";
 function vowelCount(arg) {
     var count = 0;
     for (let index = 0; index < arg.length; index++) {
