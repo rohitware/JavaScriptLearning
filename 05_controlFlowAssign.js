@@ -57,7 +57,7 @@ function fact(num) {
 let res = fact(0);
 console.log(`Factorial number of given number is ${res}`);
 
-let res4 = fact(1);
+let res4 = fact(11);
 console.log(`Factorial number of given number is ${res4}`);
 
 let res5 = fact(2);
