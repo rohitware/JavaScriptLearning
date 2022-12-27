@@ -90,4 +90,4 @@ console.log(Object.entries(billgates));
 console.log(Object.keys(billgates));
 console.log(Object.values(billgates));
 
-
+      
