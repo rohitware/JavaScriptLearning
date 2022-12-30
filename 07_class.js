@@ -12,4 +12,3 @@ let empBill = new Employee("Billgates", 5000, 58, "USA");
 console.log(empSmith);
 console.log(empJay);
 console.log(empBill);
-
