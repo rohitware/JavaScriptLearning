@@ -90,3 +90,13 @@ console.log(Object.values(billgates));
 
 
 
+//console.log(Object.entries(billgates));
+//console.log(Object.keys(billgates));
+// console.log(Object.values(billgates));
+console.log(`========== for in loop ================`);
+for (const key in billgates) {
+  if (Object.hasOwnProperty.call(billgates, key)) {
+    const element = billgates[key];
+    console.log(key, element);
+  }
+}
