@@ -56,7 +56,7 @@ startWithLetters.forEach((element) => {
 console.log(`-------------------------------------------------------------------------------------------------`);
 
 
-salOfEmp = array_emps.filter((element) => {
+let salOfEmp = array_emps.filter((element) => {
     return element.emp_salary;
 });
 let salOfEmpArray = [];
