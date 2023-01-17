@@ -30,12 +30,14 @@ console.log(`Greatest number from array:`, largest);
 const max = Math.max(...array_roll_numbers)
 console.log(`Greatest number from an array`, max)
 
+console.log(`5) Smallest number from the array is: ${array_roll_numbers[0]}`);
 
 const min = Math.min(...array_roll_numbers)
-console.log(`5) Smaller number from an array`, min)
+console.log(`5) Smaller number from an array using math is: `, min);
 
 
 console.log(`6)-------Remove duplicate elements from the array------`);
 
+console.log(array_roll_numbers);
 const uniqArray = [...new Set(array_roll_numbers)]
-console.log("  ", uniqArray);
+console.log(uniqArray);
