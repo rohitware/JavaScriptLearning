@@ -16,3 +16,4 @@ for (let key of response.keys) {
     sum = response[key].count + sum;
 }
 console.log(`Addition of all count values is:`, sum);
+
